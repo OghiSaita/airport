@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airport</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container-grid-airport">
+      <div class="grid-main-logo">
+        <div class="company-logo">
+          <img src="img/tekening.svg" alt="" />
+          <p class="logo">AIRPORT</p>
+        </div>
+      </div>
+      <div class="grid-main-info">
+        <div class="company-info">
+          <p>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+
+            145.street road new York
+          </p>
+          <p><i class="fa fa-phone" aria-hidden="true"></i> 123 456 789</p>
+          <p>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            airport@airmail.com
+          </p>
+        </div>
+      </div>
+      <div class="grid-main-nav">
+        <nav class="air-menu">
+          <ul>
+            <li>
+              <a class="airport-link-menu" href="#home">Home</a>
+              <a class="airport-link-menu" href="#about">About</a>
+              <a class="airport-link-menu" href="#Travel">Travel</a>
+              <a class="airport-link-menu" href="#Contact Us">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="grid-header">
+        <h1 class="orange">America</h1>
+        <h1 class="white">Amazing tour</h1>
+        <button class="airport-button-orange">read more</button>
+      </div>
+      <div class="grid-form-airport">
+        <div class="col">
+          <label for="fname">Vertrek vanaf?</label>
+          <div class="custom-select">
+            <select name="firstname" id="fname"></select>
+          </div>
+          <label for="heen-reis">Vertrek datum</label>
+          <input type="date" id="heen-reis" name="heen-reis" />
+        </div>
+        <div class="col">
+          <label for="lname">Aankomst op?</label>
+          <div class="custom-select">
+            <select name="lastname" id="lname"></select>
+          </div>
+          <label for="">Passagiers</label>
+          <div class="custom-select">
+            <select name="persons" id="persons">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <input type="submit" value="Zoeken" class="searchFlight" />
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="grid-form2-airport">
+          <div class="col" id="select-flight"></div>
+
+          <div class="col" id="vlucht-boeken"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
